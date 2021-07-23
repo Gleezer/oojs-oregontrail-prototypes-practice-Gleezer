@@ -54,3 +54,6 @@ console.assert(result === 3, {
   result: result
 });
 
+console.log(henrietta)
+console.log(juan)
+console.log(wagon)
