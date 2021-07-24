@@ -10,7 +10,6 @@ let henrietta = new Traveler("Henrietta");
 let juan = new Traveler("Juan");
 let maude = new Traveler("Maude");
 
-
 let result = wagon.getAvailableSeatCount();
 console.assert(result === 2, {
   test: "There should be two available seats left in the empty wagon",
@@ -37,6 +36,7 @@ console.assert(result === 0, {
 });
 
 henrietta.hunt(); // get more food
+
 juan.eat();
 juan.eat(); // juan is now hungry (sick)
 
@@ -53,3 +53,4 @@ console.assert(result === 3, {
   expected: 3,
   result: result
 });
+
